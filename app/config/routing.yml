@@ -1,3 +1,8 @@
+weather_mp3:
+    resource: "@WeatherMP3Bundle/Controller/"
+    type:     annotation
+    prefix:   /
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
