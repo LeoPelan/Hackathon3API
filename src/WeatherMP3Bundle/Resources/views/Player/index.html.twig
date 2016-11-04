@@ -1,0 +1,10 @@
+{% extends "::base.html.twig" %}
+
+{% block title %}WeatherMP3Bundle:Player:index{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <h1>Welcome to the Player</h1>
+        <p class="col-md-2 col-md-offset-10">{{ weather.temperature.now.value|round }}°C</p>
+    </div>
+{% endblock %}
